@@ -2,6 +2,7 @@ import React from 'react';
 import edit from '../assets/edit.png';
 import deleteIcon from '../assets/delete.jpg';
 import { Link } from 'react-router-dom';
+import { Menu } from '../component/menu';
 
 export const Single = () => {
   return (
@@ -43,7 +44,9 @@ export const Single = () => {
           "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br />
         </p>
       </div>
-      <div className="menu">m</div>
+      <div className="menu">
+        <Menu/>
+      </div>
     </div>
   )
 }
